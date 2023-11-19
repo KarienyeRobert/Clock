@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@400;500&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.digital-clock{
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    margin-top: 10rem;
+    border-radius: 2rem;
+    user-select: none;
+    padding: 0.2rem;
+    border: 0.5rem solid #2d2d2d;
+}
+
+.week{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    color: #2d2d2d;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+}
+
+.week .active{
+    color: white;
+}
+
+.time{
+    font-family: "Playfair" sans-serif;
+    padding-left: 16rem;
+}
+
+.hour,
+.min,
+.dot{
+    display: inline-block;
+    font-size: 13rem;
+}
+
+.min{
+    display: math;
+}
+
+.invisible{
+    visibility: hidden;
+}

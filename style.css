@@ -24,6 +24,7 @@
 
 .week .active{
     color: white;
+    font-size: bold;
 }
 
 .time{

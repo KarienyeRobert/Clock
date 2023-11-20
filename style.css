@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@400;500&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+
 .digital-clock{
     background-color: #000;
-    color: #ffffff;
+    color: #0cbef5 ;
     display: flex;
     margin-top: 10rem;
     border-radius: 2rem;
@@ -20,10 +21,11 @@
     color: #2d2d2d;
     font-weight: bold;
     font-family: "Poppins" sans-serif;
+    
 }
 
 .week .active{
-    color: white;
+    color:#0cbef5;
     font-size: bold;
 }
 
@@ -37,12 +39,25 @@
 .dot{
     display: inline-block;
     font-size: 13rem;
+    
 }
 
 .min{
     display: math;
+   
 }
 
 .invisible{
     visibility: hidden;
+}
+
+#alarmTime {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+#alarmMessage {
+    font-size: 1.2rem;
+    color: red;
+    background: white;
 }
